@@ -121,3 +121,4 @@ LIBS += -L C:/opencv-build/install/x86/mingw/bin \
 }
 RESOURCES += \
     bgimage.qrc
+
