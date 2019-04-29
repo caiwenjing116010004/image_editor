@@ -71,7 +71,7 @@ LIBS += -L/usr/local/lib \
 }
 
 win32{
-LIBS += -L C:/opencv-build/install/x86/mingw/bin \
+LIBS += -L C:/opencv/build/install/x86/mingw/bin \
      -lopencv_calib3d341 \
      -lopencv_core341 \
      -lopencv_dnn341 \
@@ -89,35 +89,35 @@ LIBS += -L C:/opencv-build/install/x86/mingw/bin \
      -lopencv_video341 \
      -lopencv_videoio341 \
      -lopencv_videostab341 \
-     -lopencv_aruco \
-     -lopencv_bgsegm \
-     -lopencv_bioinspired \
-     -lopencv_ccalib \
-     -lopencv_datasets \
-     -lopencv_dnn_objdetect \
-     -lopencv_dpm \
-     -lopencv_face \
-     -lopencv_fuzzy \
-     -lopencv_hfs \
-     -lopencv_img_hash\
-     -lopencv_imgcodecs \
-     -lopencv_imgproc\
-     -lopencv_line_descriptor \
-     -lopencv_optflow \
-     -lopencv_phase_unwrapping \
-     -lopencv_reg \
-     -lopencv_rgbd \
-     -lopencv_saliency \
-     -lopencv_stereo \
-     -lopencv_structured_light \
-     -lopencv_surface_matching \
-     -lopencv_text \
-     -lopencv_tracking \
-     -lopencv_xfeatures2d \
-     -lopencv_ximgproc \
-     -lopencv_xobjdetect \
-     -lopencv_xphoto \
-     -lopencv_plot \
+#     -lopencv_aruco \
+#     -lopencv_bgsegm \
+#     -lopencv_bioinspired \
+#     -lopencv_ccalib \
+#     -lopencv_datasets \
+#     -lopencv_dnn_objdetect \
+#     -lopencv_dpm \
+#     -lopencv_face \
+#     -lopencv_fuzzy \
+#     -lopencv_hfs \
+#     -lopencv_img_hash\
+#     -lopencv_imgcodecs \
+#     -lopencv_imgproc\
+#     -lopencv_line_descriptor \
+#     -lopencv_optflow \
+#     -lopencv_phase_unwrapping \
+#     -lopencv_reg \
+#     -lopencv_rgbd \
+#     -lopencv_saliency \
+#     -lopencv_stereo \
+#     -lopencv_structured_light \
+#     -lopencv_surface_matching \
+#     -lopencv_text \
+#     -lopencv_tracking \
+#     -lopencv_xfeatures2d \
+#     -lopencv_ximgproc \
+#     -lopencv_xobjdetect \
+#     -lopencv_xphoto \
+#     -lopencv_plot \
 }
 RESOURCES += \
     bgimage.qrc
