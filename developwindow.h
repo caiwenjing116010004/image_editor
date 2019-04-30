@@ -557,6 +557,8 @@ private slots:
 
 
 
+    void on_actionGo_Help_Page_triggered();
+
 private:
     Ui::developWindow *ui;
     // current_adjust records all steps that involves moving slider.

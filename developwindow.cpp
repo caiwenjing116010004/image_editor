@@ -8,6 +8,7 @@
 
 #include "developwindow.h"
 #include "ui_developwindow.h"
+#include "hellowindow.h"
 #include <cv.h>
 #include <opencv2/opencv.hpp>
 #include <QFileDialog>
@@ -400,8 +401,8 @@ void developWindow::on_actionPlant_triggered()
 
 void developWindow::slider_change(int value, adjust present_adjust){
     if (!check_done(present_adjust)){
-        ui->textBrowser->clear();
-        ui->textBrowser->append("press done");
+//        ui->textBrowser->clear();
+//        ui->textBrowser->append("press done");
     } else if (check_done(present_adjust) && response == true){
         done_already = false;
         current_adjust.push_back(present_adjust);
@@ -532,3 +533,9 @@ void developWindow::on_actioncrop_pic_triggered()
 }
 
 
+
+void developWindow::on_actionGo_Help_Page_triggered()
+{
+    HelloWindow *hello = new HelloWindow();
+    hello->generate_hello();
+}
