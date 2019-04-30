@@ -55,7 +55,7 @@ QWizardPage * HelloWindow::createPage2(){
     QWizardPage *page = new QWizardPage;
     page->setTitle(tr("Tip 1: In each step of your image change, "
                       "if you feel satisfied, you need to press 'Done' button to render the full image"));
-    page->setSubTitle(tr("由于在大二我们还没有学到多线程，此软件没有运用多线程编程。因此出于流畅度的考虑，您每次实时预览的是压缩过的图片。"
+    page->setSubTitle(tr("出于流畅度的考虑，您每次实时预览的是压缩过的图片。"
                          "如果您想保存当前的修改，您需要按'Done'按钮，这样您可以查看原图的效果。"
                          "否则这步操作不会被保存。"
                          "如给您带来不便，敬请谅解。"));
