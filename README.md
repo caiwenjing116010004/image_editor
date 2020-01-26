@@ -2,7 +2,7 @@
 
 ## Catalog
 
-- [Image Editor](#Image Editor)
+- [Image Editor](#image-editor)
   - [Catalog](#catalog)
   - [Introduction](#introduction)
   - [Achievements Descriptions](#achievements-descriptions)
