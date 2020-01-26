@@ -36,7 +36,7 @@ In terms of the graphical user interface, we design two interfaces – the welco
 
 
 
-![welcome-interface](C:\Users\Administrator\Documents\GitHub\image_editor\img\welcome-interface.png)
+![welcome-interface](img/welcome-interface.png)
 
 ​                                                                                 Welcome interface
 
@@ -53,7 +53,7 @@ Functions of Horizontal transform, Vertical transform, and Free rotation appear 
 
 
 
- ![geometric-transformations](C:\Users\Administrator\Documents\GitHub\image_editor\img\geometric-transformations.png)
+ ![geometric-transformations](img/geometric-transformations.png)
 
 ### Image adjustments
 
@@ -69,7 +69,7 @@ Functions of Horizontal transform, Vertical transform, and Free rotation appear 
 
 In consideration of encapsulation, we implement two classes. The imgHSB class is for color adjustments, with its key instance variables being Hue, Saturation, and Brightness. The imgSDHL class is for light adjustments, with its key instance variables being Shadow and Highlight. We also implement other functions for possible needs, including Sharpening, Blurring, and Border detection. All these functions appear on the function plate on the right part of the interface, with the name of each slider demonstrating its function clearly, which enable beginners to get started without much difficulty. Due to limited space, only the Shadow function is shown here.
 
-![image-adjustments](C:\Users\Administrator\Documents\GitHub\image_editor\img\image-adjustments.png)
+![image-adjustments](img/image-adjustments.png)
 
  
 
@@ -80,7 +80,7 @@ In consideration of encapsulation, we implement two classes. The imgHSB class is
 
 Based on the image processing functions and the imgHSB class introduced above, we design and implement several image filters. All the filters appear on the tool bar on the top of the interface. Due to limited space, only the Vintage filter is shown here.
 
-![Filters](C:\Users\Administrator\Documents\GitHub\image_editor\img\filters.png)
+![Filters](img/filters.png)
 
 
 
@@ -90,7 +90,7 @@ Based on the image processing functions and the imgHSB class introduced above, w
 
 A histogram is placed at the top-right corner of the interface. It displays the brightness of the red channel, the green channel, the blue channel, and the whole channels. Every time the user applies a filter or adjusts the lights or colors, the histogram will change.
 
-![Histogram](C:\Users\Administrator\Documents\GitHub\image_editor\img\histogram.png)
+![Histogram](img/histogram.png)
 
 
 
